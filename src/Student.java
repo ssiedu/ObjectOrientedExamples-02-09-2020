@@ -1,10 +1,16 @@
 public class Student {
+  //instance (non-static)
   private int rno;
   private String name;
   private int per;
-  private int totalPass;
-  private int totalFail;
+  //class (static)
+  private static int totalPass;
+  private static int totalFail;
   
+  public static void showOverallResult(){
+      System.out.println("Total Passed Candidates : "+totalPass);
+      System.out.println("Total Failed Candidates : "+totalFail);
+  }
   public void showResult(){
       System.out.println("____________________________________________________");
       System.out.println("Roll Number  : "+rno);

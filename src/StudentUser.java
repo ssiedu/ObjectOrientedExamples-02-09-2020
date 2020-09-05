@@ -13,5 +13,7 @@ public class StudentUser {
         s1.showResult();
         s2.showResult();
         s3.showResult();
+        
+        Student.showOverallResult();
     }
 }
