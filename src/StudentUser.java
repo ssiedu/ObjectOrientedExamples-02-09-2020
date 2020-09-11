@@ -2,7 +2,7 @@
 public class StudentUser {
 
     public static void main(String[] args) {
-        Student s1=new Student();
+        Student s1=new Student();   //zero args (default)
         Student s2=new Student();
         Student s3=new Student();
         Student s4=new Student();
