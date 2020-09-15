@@ -1,12 +1,11 @@
 public class Demo {
     private int x, y;   //instance variables of Demo class (properties of Demo object)
         
-    public void f1(){
-        
+    public void finalize(){
+        System.out.println("This method will be called automatically before object's garbage collection");
     }
-    
+   
     public Demo(){
-        f1();
     }
                     //20
     public Demo(int p){
